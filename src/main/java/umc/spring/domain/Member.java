@@ -35,7 +35,7 @@ public class Member extends BaseEntity {
 
     @Enumerated(EnumType.STRING)
     @Column(columnDefinition = "VARCHAR(10)")
-    private Gender gender;
+    private Gender gender
 
     @Enumerated(EnumType.STRING)
     private SocialType socialType;
